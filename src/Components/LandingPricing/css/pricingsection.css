@@ -1,0 +1,49 @@
+.pricing-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 150px;
+    font-family: 'Nunito', sans-serif;
+    gap: 20px;
+}
+
+.pricing-section-cards
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.pricing-section h1
+{
+    align-self: center;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.pricing-section p
+{
+    font-weight: 600;
+}
+
+.pricing-section button
+{
+    padding: 10px;
+    border-radius: 5px;
+    background: #F892F4;
+    color: #FFF;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.pricing-section-bottom
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

@@ -1,0 +1,82 @@
+.edit-address-dashboard
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    align-self: flex-start;
+}
+
+.edit-address-dashboard form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-address-dashboard-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.edit-address-dashboard-address
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.edit-address-dashboard-address h1
+{
+    margin-bottom: 30px;
+}
+
+.edit-address-dashboard-address-input
+{
+    display: flex;
+    gap: 10px;
+}
+
+.edit-address-dashboard input
+{
+    flex-basis: 70%;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.edit-address-dashboard-button
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.edit-address-dashboard button
+{
+    align-self: flex-end;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AD92F8;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.edit-address-dashboard button:hover
+{
+    background-color: #7F51FF;
+}

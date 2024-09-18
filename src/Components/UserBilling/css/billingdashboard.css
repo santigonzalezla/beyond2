@@ -1,0 +1,155 @@
+.billing-dashboard
+{
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    align-self: flex-start;
+}
+
+.billing-dashboard-name
+{
+    color: rgba(28, 28, 28, 0.7);
+}
+
+.billing-dashboard-container
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/*----------------------------------*/
+/*-----------INFO SECTION-----------*/
+/*----------------------------------*/
+.billing-dashboard-info
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    flex-basis: 65%;
+}
+
+.billing-dashboard-resume
+{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: baseline;
+}
+
+.dashboard-info-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.dashboard-info-left-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.dashboard-info-left-item p
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dashboard-info-right-address,
+.dashboard-info-right-payment
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*----------------------------------*/
+/*-----------USER SECTION-----------*/
+/*----------------------------------*/
+.dashboard-info-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.dashboard-info-right-address-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dashboard-info-right-payment-method
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.dashboard-info-right-edit-button
+{
+    cursor: pointer;
+}
+
+.billing-dashboard-resume
+{
+    width: 100%;
+    gap: 30px;
+    padding-right: 80px;
+}
+
+.billing-dashboard-resume-top
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 30px;
+}
+
+.billing-dashboard-resume-top div
+{
+    background: #FFF;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.billing-dashboard-resume-center
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.billing-dashboard-resume-bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.billing-dashboard-resume-bottom div
+{
+    background: linear-gradient(90deg, #6134DF 18.75%, #01FF0B 99.99%, #01FF0B 100%);;
+    padding: 15px;
+    width: 100%;
+}

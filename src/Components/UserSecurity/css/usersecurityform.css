@@ -1,0 +1,172 @@
+.user-security-form-top
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-security-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: flex-start;
+}
+
+.user-security-form form
+{
+    flex-basis: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user-security-form h4
+{
+    color: rgba(28, 28, 28, 0.7);
+}
+
+.user-security-form-container
+{
+    flex-basis: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user-security-form label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.user-security-form span
+{
+    flex-basis: 20%;
+    font-size: 14px;
+}
+
+.user-security-form input
+{
+    flex-basis: 70%;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.user-security-form button
+{
+    align-self: flex-start;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AD92F8;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.user-security-form button:hover
+{
+    background-color: #7F51FF;
+}
+
+.user-security-right
+{
+    flex-basis: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.user-security-right svg
+{
+    align-self: center;
+}
+
+.user-security-right h4
+{
+    color: #000;
+}
+
+.user-security-right h5
+{
+    font-weight: 300;
+}
+
+.user-security-right button
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1F883D;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.user-security-right button:hover
+{
+    background-color: #19642E;
+}
+
+.user-security-form-bottom
+{
+    width: 55%;
+    background: #E9E9E9;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-security-form-bottom h4
+{
+    font-size: 16px;
+    color: #000;
+}
+
+.user-security-form-bottom p,
+.user-security-form-bottom span
+{
+    font-size: 14px;
+}
+
+.user-security-form-bottom p
+{
+    padding-left: 20px;
+}
+
+.user-security-form-bottom span
+{
+    color: #FF0000;
+}
+
+.user-security-form-bottom button
+{
+    align-self: flex-end;
+    height: 35px;
+    background: #F88181;
+}
+
+.user-security-form-bottom button:hover
+{
+    background: #FD6363;
+}

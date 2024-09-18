@@ -1,0 +1,91 @@
+.profile-form
+{
+    flex-basis: 85%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    align-self: flex-start;
+}
+
+.profile-form form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-form h4
+{
+    color: rgba(28, 28, 28, 0.7);
+}
+
+.profile-form-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.profile-form label
+{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-form span
+{
+    flex-basis: 20%;
+    font-size: 14px;
+}
+
+.profile-form input
+{
+    flex-basis: 70%;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.profile-form-left,
+.profile-form-right
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-form-left
+{
+    flex-basis: 60%;
+}
+
+.profile-form-right
+{
+    flex-basis: 40%;
+}
+
+.profile-form button
+{
+    align-self: flex-end;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AD92F8;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.profile-form button:hover
+{
+    background-color: #7F51FF;
+}

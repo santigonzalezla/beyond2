@@ -1,0 +1,37 @@
+.landing-header
+{
+    background: url("https://i.imgur.com/0F8NDkx.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.landing-header-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px;
+    text-transform: uppercase;
+    color: #FFF;
+    gap: 10px;
+}
+
+.landing-header-container h1,
+.landing-header-container h5
+{
+    font-family: 'Nunito', sans-serif;
+    width: 40%;
+}
+
+.landing-header-container h1
+{
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.landing-header-container h5
+{
+    font-size: 18px;
+    font-weight: 100;
+}

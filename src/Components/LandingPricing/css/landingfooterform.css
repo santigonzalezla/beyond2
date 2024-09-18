@@ -1,0 +1,40 @@
+.landing-footer-form form
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #AD92F8;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.landing-footer-form input
+{
+    flex-basis: 70%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    color: #000;
+}
+
+.landing-footer-form input[placeholder]
+{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Nunito', sans-serif;
+}
+
+.landing-footer-form button
+{
+    font-family: 'Nunito', sans-serif;
+    flex-basis: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    background: #AD92F8;
+    color: #FFF ;
+    cursor: pointer;
+    font-weight: 700;
+}

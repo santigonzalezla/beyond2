@@ -1,0 +1,115 @@
+.edit-payment-dashboard
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    align-self: flex-start;
+}
+
+.edit-payment-dashboard form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-payment-dashboard h4
+{
+    color: rgba(28, 28, 28, 0.7);
+}
+
+.edit-payment-dashboard-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.edit-payment-dashboard-payment
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.edit-payment-dashboard-payment-card,
+.edit-payment-dashboard-payment-name
+{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.edit-payment-dashboard-address
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.edit-payment-dashboard-address-input
+{
+    display: flex;
+    gap: 10px;
+}
+
+.edit-payment-dashboard input
+{
+    flex-basis: 70%;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.edit-payment-dashboard-left,
+.edit-payment-dashboard-right
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.edit-payment-dashboard-left
+{
+    flex-basis: 60%;
+}
+
+.edit-payment-dashboard-right
+{
+    flex-basis: 40%;
+}
+
+.edit-payment-dashboard-button
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.edit-payment-dashboard button
+{
+    align-self: flex-end;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AD92F8;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.edit-payment-dashboard button:hover
+{
+    background-color: #7F51FF;
+}
